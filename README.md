@@ -1,12 +1,7 @@
-# React + Vite
+# Editor JS Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo's purpose is to have a good knowledge on editor js an javascript library for having the feature of writing a blog in your website.
 
-Currently, two official plugins are available:
+the repo helps me in practicing and experimenting the features of editor js .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+the official repo for editor js is editorjs[https://github.com/editor-js]
