@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+body {
+  background-color: rgb(31, 29, 29);
+}
+
+/* Custom prose styles for blog content */
+.prose-blog {
+  max-width: none;
+  color: #e5e7eb; /* light gray text */
+}
+
+.prose-blog h1 {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700; /* font-bold */
+  margin-bottom: 1rem;
+  color: white;
+  line-height: 1.2;
+}
+
+.prose-blog h2 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 600; /* font-semibold */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+  line-height: 1.3;
+}
+
+.prose-blog h3 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: white;
+  line-height: 1.4;
+}
+
+.prose-blog h4 {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600; /* font-semibold */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  line-height: 1.4;
+}
+
+.prose-blog h5 {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600; /* font-semibold */
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  line-height: 1.4;
+}
+
+.prose-blog h6 {
+  font-size: 1rem; /* text-base */
+  font-weight: 600; /* font-semibold */
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  line-height: 1.4;
+}
+
+.prose-blog p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #d1d5db; /* gray-300 */
+}
+
+.prose-blog ul,
+.prose-blog ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  color: #d1d5db; /* gray-300 */
+}
+
+.prose-blog li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.prose-blog strong {
+  font-weight: 600;
+  color: white;
+}
+
+.prose-blog em {
+  font-style: italic;
+  color: #f3f4f6; /* gray-100 */
+}
+
+.prose-blog code {
+  background-color: #374151; /* gray-700 */
+  color: #fbbf24; /* amber-400 */
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-family: "Courier New", monospace;
+}
+
+.prose-blog pre {
+  background-color: #1f2937; /* gray-800 */
+  color: #e5e7eb; /* gray-200 */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.prose-blog pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.prose-blog blockquote {
+  border-left: 4px solid #6b7280; /* gray-500 */
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #9ca3af; /* gray-400 */
+}
+
+.prose-blog a {
+  color: #60a5fa; /* blue-400 */
+  text-decoration: underline;
+}
+
+.prose-blog a:hover {
+  color: #93c5fd; /* blue-300 */
+}
