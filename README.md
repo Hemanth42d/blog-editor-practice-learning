@@ -4,4 +4,4 @@ This repo's purpose is to have a good knowledge on editor js an javascript libra
 
 the repo helps me in practicing and experimenting the features of editor js .
 
-the official repo for editor js is editorjs[https://github.com/editor-js]
+the official repo for editor js is  https://github.com/editor-js
